@@ -18,7 +18,7 @@ const FilterUsers = ({
           <option value="Sales">Sales</option>
           <option value="Finance">Finance</option>
           <option value="Marketing">Marketing</option>
-          {/* Add more domain options as needed */}
+      
         </select>
       </div>
       <div className="filter-container">
@@ -28,7 +28,7 @@ const FilterUsers = ({
           <option value="Male">Male</option>
           <option value="Female">Female</option>
           <option value="Other">Other</option>
-          {/* Add more gender options as needed */}
+          
         </select>
       </div>
       <div className="filter-container">

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./UserCard.css"; // Import the CSS file for styling
+import "./UserCard.css"; 
 import Pagination from "./Pagination";
 import SearchByName from "./SearchByName";
 import FilterUsers from "./FilterUsers";
@@ -20,7 +20,7 @@ const Usercard = () => {
 
   const fetchData = async () => {
     try {
-      // Replace this with your API endpoint
+      
       const response = await fetch("http://localhost:5000/api/fetch-data");
 
       const jsonData = await response.json();

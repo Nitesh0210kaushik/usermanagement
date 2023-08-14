@@ -36,7 +36,7 @@ const userSchema = new mongoose.Schema({
     email: {
         type: String,
         required: true,
-        unique: true // If you want email to be unique for each user
+        unique: true
     },
     gender: {
         type: String,
